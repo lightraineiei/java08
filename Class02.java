@@ -8,7 +8,7 @@ class Cbbb
    
 }
 
-public class hw
+public class Class02
 {
    public static void main(String args[])
    {

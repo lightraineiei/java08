@@ -1,5 +1,6 @@
 package java08hw;
 
+// app8_2, 同時建立兩個物件
 class Cbbb
 {
    double x;         // 定義資料成員x
@@ -7,7 +8,7 @@ class Cbbb
    
 }
 
-public class Class02
+public class hw
 {
    public static void main(String args[])
    {
@@ -24,9 +25,10 @@ public class Class02
    
       avg.x =(obj1.x+obj2.x)/2;
       avg.y =(obj1.y+obj2.y)/2;
-      System.out.println("obj1.x: "+obj1.x+" "+ obj1.y);
-      System.out.println(obj2.y+" "+ obj2.y);
-      System.out.println(avg.x+" "+ avg.y);
+      System.out.println("obj1.x:"+obj1.x+" "+ "obj1.y:"+obj1.y);
+      System.out.println("obj2.x:"+obj2.y+" "+ "obj2.y:"+obj2.y);
+      System.out.println("avg.x:"+avg.x+" "+ "avg.y:"+ avg.y);
  
    }
 }
+
